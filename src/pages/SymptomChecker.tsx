@@ -12,7 +12,7 @@ const SymptomChecker = () => {
     setLoading(true);
     
     try {
-      const response = await axios.post('http://localhost:3000/api/analyze-symptoms', {
+      const response = await axios.post('http://127.0.0.1:3000/api/analyze-symptoms', {
         symptoms
       });
 
